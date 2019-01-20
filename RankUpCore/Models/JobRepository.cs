@@ -45,7 +45,7 @@ namespace RankUpCore.Models
         {
             lock (ourLock)
             {
-                return JobList/*.ToList()*/;
+                return JobList.ToList();
             }
 
         }
